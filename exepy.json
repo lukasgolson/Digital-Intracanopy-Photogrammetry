@@ -1,0 +1,32 @@
+{
+  "applicationName": "Drone-Based Intracanopy Photogrammetry Pipeline",
+  "runScriptFileStem": "dip",
+  "pythonDownloadURL": "https://www.python.org/ftp/python/3.11.7/python-3.11.7-embed-amd64.zip",
+  "pipDownloadURL": "https://bootstrap.pypa.io/pip/pip.pyz",
+  "pythonDownloadFile": "python code-3.11.7-embed-amd64.zip",
+  "pythonExtractDir": "python-embed",
+  "scriptExtractDir": "scripts",
+  "pthFile": "python311._pth",
+  "pythonInteriorZip": "python311.zip",
+  "installerRequirements": "scripts/requirements.txt",
+  "requirementsFile": "requirements.txt",
+  "scriptDir": "scripts",
+  "setupScript": "",
+  "mainScript": "main.py",
+  "filesToCopyToRoot": [
+    "scripts/requirements.txt",
+    "license.md",
+    "readme.md",
+    "NOTICE",
+    "gnu-gpl-v3.txt",
+    "third-party-licenses.md",
+    "scripts/setup-urls.json"
+  ],
+  "runAfterInstall": true,
+  "onlineRequirements": true,
+  "ignoredPathParts": [
+    ".git",
+    "__pycache__",
+    ".idea"
+  ]
+}

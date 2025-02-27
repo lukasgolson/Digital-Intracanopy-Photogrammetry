@@ -1,0 +1,35 @@
+# Binaries and build output
+/bin/
+
+# Data directories (both at the repository root and nested)
+ /data/
+data/
+
+# Third-party libraries (ignore in any subdirectory)
+**/third-party/
+
+# Model directory and its contents
+/model/
+
+/.idea/
+
+# Python cache and compiled files
+**/__pycache__/
+*.pyc
+
+# Point cloud artifacts
+*.ply
+*.obj
+*.ini
+*.lic
+
+# Log files
+log.txt
+*.log
+
+# Project archives and specific project files
+project.zip
+metashape_project.psx
+
+Exepy-Creator.exe
+installer.exe

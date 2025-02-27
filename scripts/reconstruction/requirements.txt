@@ -1,0 +1,13 @@
+StrEnum~=0.4.15
+loguru~=0.7.2
+tqdm~=4.66
+numpy~=1.26.3
+GPUtil~=1.4.0
+pillow~=10.4.0
+scipy~=1.15.1
+psutil~=6.1.0
+numba~=0.60
+laspy~=2.5.3
+click~=8.1.7
+requests
+certifi
